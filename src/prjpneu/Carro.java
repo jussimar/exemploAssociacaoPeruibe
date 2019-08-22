@@ -8,6 +8,14 @@ public class Carro {
     
     public void liga(){
         System.out.println("Carro Ligado..");
+        System.out.println("Pneu 1 - " + p1.getPressao());
+        p1.rodar();
+        System.out.println("Pneu 2 - " + p2.getPressao());
+        p2.rodar();
+        System.out.println("Pneu 3 - " + p3.getPressao());
+        p3.rodar();
+        System.out.println("Pneu 4 - " + p4.getPressao());
+        p4.rodar();
     }
     
     public void desliga(){
